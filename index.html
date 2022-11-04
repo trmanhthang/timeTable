@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+        .table, .tableItems {
+            border: 1px solid #000;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #fefb00;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header" style="text-align: center; width: 50%; text-transform: uppercase;">
+            <h1>Thời khoá biểu lớp C1022I1</h1>
+        </div>
+        <div>
+            <table style="width: 50%; color: #3f60ff;">
+                <tr>
+                    <td>
+                        Lớp C1022I1
+                    </td>
+                    <td style="text-align: right;">
+                        Thời gian học: 13h30 - 17h30
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Giáo viên: Khoa Java
+                    </td>
+                    <td style="text-align: right;">
+                        Ngày học: Thứ 3, 5, 7
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Phòng học: Class3/Lap3
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+
+            <table class="table" style="width: 50%;">
+                <tr>
+                    <td class="tableItems" colspan="3"></td>
+                    <th class="tableItems">Thứ 3</th>
+                    <th class="tableItems">Thứ 5</th>
+                    <th class="tableItems">Thứ 7</th>
+                </tr>
+                <tr style="
+                text-align: center; 
+                background-color: #ffb300;
+                font-weight: 600;
+                ">
+                    <td class="tableItems">Tuần</td>
+                    <td class="tableItems">Ngày bắt đầu</td>
+                    <td class="tableItems">Ngày kết thúc</td>
+                    <td class="tableItems" colspan="3">Môn học</td>
+                </tr>
+                <tr>
+                    <td class="tableItems">01</td>
+                    <td class="tableItems">01/09/2009</td>
+                    <td class="tableItems">05/09/2009</td>
+                    <td class="tableItems">CF - T1, L1</td>
+                    <td class="tableItems">CF - T2, L2</td>
+                    <td class="tableItems">CF - T3, L3</td>
+                </tr>
+                <tr>
+                    <td class="tableItems">02</td>
+                    <td class="tableItems">08/09/2009</td>
+                    <td class="tableItems">12/09/2009</td>
+                    <td class="tableItems">CF - T4, L4</td>
+                    <td class="tableItems">CF - Wnitten Test</td>
+                    <td class="tableItems">C - T1, L1</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
